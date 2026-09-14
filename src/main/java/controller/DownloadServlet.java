@@ -55,12 +55,12 @@ public class DownloadServlet extends HttpServlet {
         User user = (User) session.getAttribute("user");
 
         String url;
-        // if User object doesn't exist, check email cookie
+
         if (user == null) {
             Cookie[] cookies = request.getCookies();
             String emailAddress = CookieUtil.getCookieValue(cookies, "emailCookie");
 
-            // if cookie doesn't exist, go to Registration page
+
             if (emailAddress == null || emailAddress.isEmpty()) {
                 url = "/register.jsp";
             }
@@ -71,7 +71,7 @@ public class DownloadServlet extends HttpServlet {
                 url = "/" + productCode + "_download.jsp";
             }
         }
-        // if User object exists, go to Downloads page
+
         else {
             url = "/" + productCode + "_download.jsp";
         }
