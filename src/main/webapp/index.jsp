@@ -8,26 +8,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Title</title>
+    <title>Danh sách bài hát</title>
   </head>
   <body>
-    <h1>List of albums</h1>
+    <h1>Danh sách bài hát</h1>
 
     <p>
-    <a href="download?action=checkUser&amp;productCode=8601">
-    86 (the band) - True Life Songs and Pictures
+    <a href="download?action=checkUser&amp;productCode=bacphan">
+    Bạc Phận
     </a><br>
 
-    <a href="download?action=checkUser&amp;productCode=pf01">
-    Paddlefoot - The First CD
+    <a href="download?action=checkUser&amp;productCode=nguoidung">
+    Người Dưng
     </a><br>
 
-    <a href="download?action=checkUser&amp;productCode=pf02">
-    Paddlefoot - The Second CD
+    <a href="download?action=checkUser&amp;productCode=simplelove">
+    Simple Love
     </a><br>
 
-    <a href="download?action=checkUser&amp;productCode=jr01">
-    Joe Rut - Genuine Wood Grained Finish
+    <a href="download?action=checkUser&amp;productCode=songgio">
+    Sóng Gió
     </a>
     </p>
 

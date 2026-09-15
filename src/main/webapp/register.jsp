@@ -9,13 +9,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Download Registration</title>
+    <title>Đăng ký - Tải nhạc</title>
     <link rel="stylesheet" href="styles/main.css" type="text/css">
   </head>
   <body>
-    <h1>Download registration</h1>
+    <h1>Đăng ký tải nhạc</h1>
 
-    <p>To register for our downloads, enter your name and email address below. Then, click on the Submit button.</p>
+    <p>Để đăng ký tải nhạc, vui lòng nhập tên và email của bạn dưới đây, sau đó nhấn nút Đăng ký.</p>
 
     <form action="download" method="post">
       <input type="hidden" name="action" value="registerUser">
